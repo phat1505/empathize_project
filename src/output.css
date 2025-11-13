@@ -583,54 +583,6 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mb-\[50px\] {
-  margin-bottom: 50px;
-}
-
-.ml-\[1150px\] {
-  margin-left: 1150px;
-}
-
-.ml-\[950px\] {
-  margin-left: 950px;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.ml-\[550px\] {
-  margin-left: 550px;
-}
-
-.ml-\[450px\] {
-  margin-left: 450px;
-}
-
-.ml-\[400px\] {
-  margin-left: 400px;
-}
-
-.ml-\[430px\] {
-  margin-left: 430px;
-}
-
-.mb-\[40px\] {
-  margin-bottom: 40px;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -639,16 +591,36 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.ml-\[530px\] {
-  margin-left: 530px;
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.ml-\[450px\] {
+  margin-left: 450px;
+}
+
+.ml-\[550px\] {
+  margin-left: 550px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
   display: flex;
 }
 
-.h-\[200px\] {
-  height: 200px;
+.h-\[120px\] {
+  height: 120px;
 }
 
 .h-\[400px\] {
@@ -659,6 +631,10 @@ video {
   height: 45px;
 }
 
+.h-\[5px\] {
+  height: 5px;
+}
+
 .h-\[60px\] {
   height: 60px;
 }
@@ -667,36 +643,12 @@ video {
   height: 750px;
 }
 
-.h-\[8px\] {
-  height: 8px;
-}
-
-.h-\[150px\] {
-  height: 150px;
-}
-
-.h-\[100px\] {
-  height: 100px;
-}
-
-.h-\[120px\] {
-  height: 120px;
-}
-
-.h-\[5px\] {
-  height: 5px;
-}
-
-.w-\[1000px\] {
-  width: 1000px;
-}
-
-.w-\[1050px\] {
-  width: 1050px;
-}
-
 .w-\[250px\] {
   width: 250px;
+}
+
+.w-\[340px\] {
+  width: 340px;
 }
 
 .w-\[450px\] {
@@ -711,44 +663,24 @@ video {
   width: 500px;
 }
 
-.w-\[650px\] {
-  width: 650px;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-\[700px\] {
-  width: 700px;
+.w-\[550px\] {
+  width: 550px;
 }
 
 .w-\[600px\] {
   width: 600px;
 }
 
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[550px\] {
-  width: 550px;
-}
-
-.w-\[350px\] {
-  width: 350px;
-}
-
-.w-\[330px\] {
-  width: 330px;
-}
-
-.w-\[340px\] {
-  width: 340px;
+.w-full {
+  width: 100%;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -823,29 +755,19 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
