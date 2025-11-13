@@ -599,16 +599,12 @@ video {
   margin-bottom: 40px;
 }
 
-.ml-\[450px\] {
-  margin-left: 450px;
-}
-
-.ml-\[550px\] {
-  margin-left: 550px;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mb-\[10px\] {
+  margin-bottom: 10px;
 }
 
 .inline-block {
@@ -679,10 +675,6 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -750,6 +742,10 @@ video {
   font-family: Storm Gust, sans-serif;
 }
 
+.font-bebas-neue {
+  font-family: Bebas Neue, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -793,6 +789,16 @@ video {
   font-family: 'Storm\ Gust';
 
   src: url('./fonts/Storm\ Gust.otf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas\ Neue';
+
+  src: url('./fonts/BebasNeue-Regular.ttf') format('truetype');
 
   font-weight: normal;
 

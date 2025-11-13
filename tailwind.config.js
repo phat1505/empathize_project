@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'storm-gust': ['Storm\ Gust', 'sans-serif'],
+        'bebas-neue': ['Bebas\ Neue', 'sans-serif'],
       },
     },
   },
