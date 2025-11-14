@@ -57,7 +57,8 @@
             <a href="./member.html" class="block py-3 border-b border-gray-700 text-red-800">Member</a>
             <a href="./about.html" class="block py-3">About</a>
         </div>
-        <div id="mobileMenuIcons" class="mobile-menu md:hidden max-h-0 opacity-0 flex justify-start ml-6 space-x-6 mb-4">
+        <div id="mobileMenuIcons"
+            class="mobile-menu md:hidden max-h-0 opacity-0 flex justify-start ml-6 space-x-6 mb-4">
             <a href="#"><img src="images/icon/facebook.png" class="w-6 h-6" /></a>
             <a href="#"><img src="images/icon/instagram.png" class="w-6 h-6" /></a>
             <a href="#"><img src="images/icon/email.png" class="w-6 h-6" /></a>
@@ -94,6 +95,13 @@
                 openMobileMenu();
             }
         });
+        // chọn tất cả link trong menu mobile
+        document.querySelectorAll('#mobileMenu a, #mobileMenuIcons a').forEach(link => {
+            link.addEventListener('click', () => {
+                closeMobileMenu(); // chỉ đóng menu, không preventDefault
+            });
+        });
+
 
 
         // Ensure correct state on resize (desktop -> hide mobile menu)
@@ -204,8 +212,10 @@
                 </div>
             </div>
             <div class="flex gap-2 mr-2">
-                <a href="https://www.facebook.com/khuimepp" target="_blank"><img src="images/icon/facebook.png" class="w-6 h-6" /></a>
-                <a href="https://www.instagram.com/tr.ahkhoi__" target="_blank"><img src="images/icon/instagram.png" class="w-6 h-6" /></a>
+                <a href="https://www.facebook.com/khuimepp" target="_blank" rel="noopener noreferrer"><img src="images/icon/facebook.png"
+                        class="w-6 h-6" /></a>
+                <a href="https://www.instagram.com/tr.ahkhoi__" target="_blank"><img src="images/icon/instagram.png"
+                        class="w-6 h-6" /></a>
             </div>
         </div>
 
