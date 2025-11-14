@@ -1,109 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Empathize</title>
-    <link rel="icon" href="./images/logo1.png" type="image/x-icon">
+    <link rel="icon" href="./images/logo/logo1.png" type="image/x-icon">
     <link rel="stylesheet" href="output.css">
+    <style>
+        /* optional helper (if you want custom easing) */
+        .reveal {
+            transition-timing-function: cubic-bezier(.2, .9, .3, 1);
+        }
+    </style>
 </head>
 
-<body class="bg-slate-950 p-4 text-white">
-    <nav>
+<body class="bg-slate-950 text-white ">
+    <nav class="bg-transparent sticky top-0 w-full z-20">
         <div class="items-center justify-between mx-20 flex">
-            <a href="./index.html">
-                <img src="./images/logo1.png" class="w-[250px] h-[60px]" />
-            </a>
             <ul class="flex items-center text-2xl font-storm-gust">
                 <li>
-                    <a href="./index.html" class="px-4 text-red-800">Home</a>
+                    <a href="./index.html" class="px-2 text-red-800">Home</a>
                 </li>
                 <li>
-                    <a href="./music.html " class="px-4 hover:text-red-800">Music</a>
+                    <a href="./music.html " class="px-2 hover:text-red-800">Music</a>
                 </li>
                 <li>
-                    <a href="./member.html" class="px-4 hover:text-red-800">Member</a>
+                    <a href="./member.html" class="px-2 hover:text-red-800">Member</a>
                 </li>
                 <li>
-                    <a href="./setlist.html" class="px-4 hover:text-red-800">SetList</a>
-                </li>
-                <li>
-                    <a href="./about.html" class="px-4 hover:text-red-800">About</a>
+                    <a href="./about.html" class="px-2 hover:text-red-800">About</a>
                 </li>
             </ul>
+            <a href="./index.html">
+                <img src="./images/logo/logo1.png" class="w-[250px] h-[60px]" />
+            </a>
+            <div class="flex justify-between items-center w-[350px] h-[100px] px-5">
+                <a href="https://www.facebook.com/khuimepp#" target="_blank"><img src="images/icon/facebook.png"
+                        class="w-[30px] h-[30px] transition-transform duration-200 hover:scale-110" /></a>
+                <a href="https://www.instagram.com/tr.ahkhoi__/"><img src="images/icon/instagram.png"
+                        class="w-[30px] h-[30px] transition-transform duration-200 hover:scale-110" /> </a>
+                <a href="https://www.instagram.com/tr.ahkhoi__/"><img src="images/icon/email.png"
+                        class="w-[30px] h-[30px]transition-transform duration-200 hover:scale-110" /> </a>
+                <a href="https://www.instagram.com/tr.ahkhoi__/"><img src="images/icon/youtube.png"
+                        class="w-[30px] h-[30px] transition-transform duration-200 hover:scale-110" /> </a>
+            </div>
         </div>
     </nav>
-    <div>
-        <img src="./images/banner4.png" class="w-full h-[750px] object-fill" />
-        <!-- <img src="./images/banner2.png" class="w-[500px] h-[400px] object-cover" />
-        <img src="./images/banner3.png" class="w-[500px] h-[400px] object-cover" /> -->
-    </div>
-    <div class="flex justify-between mx-[20px]">
-        <div>
-            <img src="./images/about.png" class="w-[1000px] h-[350px] object-fill rounded-full">
-        </div>
-        <div class="text-2xl font-bold ml-10">
-            <h2>EMPATHIZE INTRODUCE:</h2>
-            <p>Empathize là một ban nhạc hardcore đến từ Việt Nam, mang tinh thần mạnh mẽ, thẳng thắn và đầy năng lượng
-                của dòng nhạc metal. Ban nhạc được hình thành với mục tiêu thể hiện những cảm xúc chân thật nhất về sự
-                phản kháng, nỗi đau, và khát vọng vượt qua giới hạn bản thân. </br>
-                Âm nhạc của Empathize kết hợp giữa giai điệu hardcore hiện đại và thông điệp sâu sắc, phản ánh những
-                trải nghiệm thật trong cuộc sống – về niềm tin, sự phản bội và hành trình đứng dậy sau vấp ngã. Mỗi bài
-                hát đều là một lời tuyên bố:</p>
-            <p class="italic">“Không ai cứu bạn ngoài chính bạn. Hãy tỉnh dậy và chiến đấu.”</p>
-            <a href="./about.html" class="underline text-blue-500 hover:text-red-800">Xem thêm</a>
-        </div>
-    </div>
-    <div class=" w-[1100px] h-auto flex justify-center mx-auto mt-16">
-        <div class=" flex justify-between gap-80">
-            <div>
-                <h1 class="text-4xl font-bold mb-10 ">Check My Music</h1>
-                <div
-                    class="items-center my-5 flex border border-white rounded-full w-[450px] p-1 text-lg hover:bg-gray-600">
-                    <a href="https://www.youtube.com/watch?v=EtmFH4XUfx8&list=PL9yQFVP0nm14hQskfofJznjGti8zaoWDv"
-                        target="_blank">
-                        <img src="./images/banner.png" class="w-[45px] h-[45px] object-cover mx-[5px] rounded-full" />
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=EtmFH4XUfx8&list=PL9yQFVP0nm14hQskfofJznjGti8zaoWDv"
-                        target="_blank">F*ck Around and Find Out (Official Music
-                        Video)</a>
-                </div>
-                <div
-                    class="items-center my-5 flex border border-white rounded-full w-[450px] p-1 text-lg hover:bg-gray-600">
-                    <a href="https://www.youtube.com/watch?v=EtmFH4XUfx8&list=PL9yQFVP0nm14hQskfofJznjGti8zaoWDv"
-                        target="_blank">
-                        <img src="./images/banner.png" class="w-[45px] h-[45px] object-cover mx-[5px] rounded-full" />
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=EtmFH4XUfx8&list=PL9yQFVP0nm14hQskfofJznjGti8zaoWDv"
-                        target="_blank">EP 5Way Split "BEYOND THE WIRE"</a>
-                </div>
-                <div
-                    class="items-center my-5 flex border border-white rounded-full w-[450px] p-1 text-lg hover:bg-gray-600">
-                    <a href="https://www.youtube.com/watch?v=EtmFH4XUfx8&list=PL9yQFVP0nm14hQskfofJznjGti8zaoWDv"
-                        target="_blank">
-                        <img src="./images/banner.png" class="w-[45px] h-[45px] object-cover mx-[5px] rounded-full" />
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=NsvKO4KS28Y" target="_blank">EMPATHIZE - DELUDED"</a>
-                </div>
+    <main class="max-w-7xl mx-auto space-y-16">
+        <!-- each .reveal-item will reveal when scrolled into view -->
+        <section class="flex gap-4">
+            <!-- Cột 1 -->
+            <div class="flex flex-col gap-4">
+                <img src="./images/band/1.jpg" loading="lazy" alt="demo1"
+                    class="reveal-item w-[400px] rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="300" />
+
+                <img src="./images/band/3.png" loading="lazy" alt="demo3"
+                    class="reveal-item w-[400px] h-auto rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="900" />
+                <img src="./images/band/3.png" loading="lazy" alt="demo3"
+                    class="reveal-item w-[400px] h-auto rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="900" />
             </div>
-            <div class="text-2xl items-center">
-                <h1 class="text-4xl font-bold mb-7 mx-auto">Thành Viên</h1>
-                <h3>Trần Anh Khôi</h3>
-                <h3>Trịnh Hoàng Bảo</h3>
+
+            <!-- Cột 2 -->
+            <div class="flex flex-col gap-4">
+                <img src="./images/band/1.jpg" loading="lazy" alt="demo2"
+                    class="reveal-item w-[400px] rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="600" />
+
+                <img src="./images/band/2.jpg" loading="lazy" alt="demo3"
+                    class="reveal-item w-[400px] h-auto rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="900" />
             </div>
-        </div>
-    </div>
-    <footer class="bg-slate-950 w-full h-[100px] flex justify-center">
-        <div class="flex justify-between items-center w-[450px] h-[100px]">
-            <a href="https://www.facebook.com/khuimepp#" target="_blank"><img src="images/facebook.png"
-                    class="w-[50px] h-[50px] mx-5 transition-transform duration-200 hover:scale-110" /></a>
-            <a href="https://www.instagram.com/tr.ahkhoi__/"><img src="images/instagram.png"
-                    class="w-[50px] h-[50px] mx-5 transition-transform duration-200 hover:scale-110" /> </a>
-            <a href="https://www.instagram.com/tr.ahkhoi__/"><img src="images/email.png"
-                    class="w-[60px] h-[60px] mx-5 transition-transform duration-200 hover:scale-110" /> </a>
-            <a href="https://www.instagram.com/tr.ahkhoi__/"><img src="images/youtube.png"
-                    class="w-[60px] h-[60px] mx-5 transition-transform duration-200 hover:scale-110" /> </a>
-        </div>
-    </footer>
+
+            <!-- Cột 3 -->
+            <div class="flex flex-col gap-4">
+                <img src="./images/band/1.jpg" loading="lazy" alt="demo3"
+                    class="reveal-item w-[400px] h-auto rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="900" />
+
+                <img src="./images/band/2.jpg" loading="lazy" alt="demo3"
+                    class="reveal-item w-[400px] h-auto rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="900" />
+                <img src="./images/band/2.jpg" loading="lazy" alt="demo3"
+                    class="reveal-item w-[400px] h-auto rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="900" />
+                <img src="./images/band/3.png" loading="lazy" alt="demo3"
+                    class="reveal-item w-[400px] h-auto rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="900" />
+                <img src="./images/band/3.png" loading="lazy" alt="demo3"
+                    class="reveal-item w-[400px] h-auto rounded-lg opacity-0 translate-y-8 reveal transition-all duration-700 mb-4"
+                    data-delay="900" />
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // IntersectionObserver options
+        const ioOptions = {
+            root: null,
+            rootMargin: '-85px 0px -50px 0px',
+            threshold: 0
+        };
+
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const el = entry.target;
+                const delay = parseInt(el.dataset.delay || 0, 5);
+
+                if (entry.isIntersecting) {
+                    // Scroll tới → hiện với delay
+                    setTimeout(() => {
+                        el.classList.remove('opacity-0', 'translate-y-8');
+                        el.classList.add('opacity-100', 'translate-y-0');
+                    }, delay);
+                } else {
+                    // Scroll ra → ẩn ngay (không delay)
+                    el.classList.add('opacity-0', 'translate-y-8');
+                    el.classList.remove('opacity-100', 'translate-y-0');
+                }
+            });
+        }, ioOptions);
+
+        document.querySelectorAll('.reveal-item').forEach(el => io.observe(el));
+
+    </script>
 </body>
 
 </html>
