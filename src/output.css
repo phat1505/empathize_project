@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .fixed {
   position: fixed;
 }
@@ -604,6 +608,14 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .mx-2 {
@@ -1213,6 +1225,16 @@ video {
 .hover\:text-red-800:hover {
   --tw-text-opacity: 1;
   color: rgb(153 27 27 / var(--tw-text-opacity, 1));
+}
+
+.hover\:brightness-75:hover {
+  --tw-brightness: brightness(.75);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:brightness-50:hover {
+  --tw-brightness: brightness(.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .focus\:outline-none:focus {
