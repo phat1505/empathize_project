@@ -973,6 +973,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
