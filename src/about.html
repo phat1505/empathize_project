@@ -8,12 +8,6 @@
     <title>Empathize</title>
     <link rel="icon" href="./images/logo/logo1.png" type="image/x-icon">
     <link rel="stylesheet" href="output.css">
-    <style>
-        /* optional helper (if you want custom easing) */
-        .reveal {
-            transition-timing-function: cubic-bezier(.2, .9, .3, 1);
-        }
-    </style>
 </head>
 
 
@@ -22,25 +16,23 @@
     <!-- NAV (thay thế phần nav cũ) -->
     <nav class="bg-transparent sticky top-0 w-full z-20">
         <div class="flex items-center justify-between mx-6 md:mx-20 py-3">
+            <!-- Menu desktop -->
+            <ul class="hidden md:flex items-center text-2xl font-storm-gust space-x-4 md:ml-10">
+                <li><a href="./index.html" class="px-2 text-red-800">Home</a></li>
+                <li><a href="./music.html" class="px-2 hover:text-red-800">Music</a></li>
+                <li><a href="./member.html" class="px-2 hover:text-red-800">Member</a></li>
+                <li><a href="./about.html" class="px-2 hover:text-red-800">About</a></li>
+            </ul>
             <!-- Logo -->
             <a href="./index.html" class="flex-shrink-0">
                 <img src="./images/logo/logo1.png" class="w-[200px] md:w-[250px]" alt="logo" />
             </a>
-
-            <!-- Menu desktop -->
-            <ul class="hidden md:flex items-center text-2xl font-storm-gust space-x-6">
-                <li><a href="./index.html" class="px-2 hover:text-red-800">Home</a></li>
-                <li><a href="./music.html" class="px-2 hover:text-red-800">Music</a></li>
-                <li><a href="./member.html" class="px-2 hover:text-red-800">Member</a></li>
-                <li><a href="./about.html" class="px-2 text-red-800">About</a></li>
-            </ul>
-
             <!-- Icon group desktop -->
-            <div class="hidden md:flex items-center space-x-4">
+            <div class="hidden md:flex items-center space-x-16">
                 <a href="#"><img src="images/icon/facebook.png" class="w-6 h-6" /></a>
                 <a href="#"><img src="images/icon/instagram.png" class="w-6 h-6" /></a>
                 <a href="#"><img src="images/icon/email.png" class="w-6 h-6" /></a>
-                <a href="#"><img src="images/icon/youtube.png" class="w-6 h-6" /></a>
+                <a href="#"><img src="images/icon/youtube.png" class="w-6 h-6 mr-12" /></a>
             </div>
 
             <!-- Mobile: button -->
@@ -51,13 +43,14 @@
         </div>
 
         <!-- Mobile menu (ẩn mặc định). .mobile-menu dùng để animation bằng max-height -->
-        <div id="mobileMenu" class="mobile-menu md:hidden max-h-0 opacity-0 px-6 font-storm-gust mb-2">
-            <a href="./index.html" class="block py-3 border-b border-gray-700">Home</a>
+        <div id="mobileMenu" class="mobile-menu md:hidden max-h-0 opacity-0 overflow-hidden px-6 font-storm-gust mb-2">
+            <a href="./index.html" class="block py-3 border-b border-gray-700 text-red-800">Home</a>
             <a href="./music.html" class="block py-3 border-b border-gray-700">Music</a>
             <a href="./member.html" class="block py-3 border-b border-gray-700">Member</a>
-            <a href="./about.html" class="block py-3 text-red-800">About</a>
+            <a href="./about.html" class="block py-3">About</a>
         </div>
-        <div id="mobileMenuIcons" class="mobile-menu md:hidden max-h-0 opacity-0 flex justify-start ml-6 space-x-6 mb-4">
+        <div id="mobileMenuIcons"
+            class="mobile-menu md:hidden max-h-0 opacity-0 overflow-hidden flex justify-start ml-6 space-x-6 mb-4">
             <a href="#"><img src="images/icon/facebook.png" class="w-6 h-6" /></a>
             <a href="#"><img src="images/icon/instagram.png" class="w-6 h-6" /></a>
             <a href="#"><img src="images/icon/email.png" class="w-6 h-6" /></a>
@@ -105,11 +98,11 @@
             }
         });
     </script>
-    <div class="flex justify-between mx-[20px] hidden md:block">
+    <div class="md:flex justify-between mx-[20px] hidden">
         <div>
-            <img src="./images/banner/about.png" class="w-[1000px] h-[450px] object-fill rounded-xl ">
+            <img src="./images/band/3.png" class="w-[3450px] h-[600px] object-fill rounded-3xl ">
         </div>
-        <div class="text-2xl font-bold ml-10">
+        <div class="text-2xl font-bold ml-7">
             <h2>EMPATHIZE INTRODUCE:</h2>
             <p>Empathize là một ban nhạc hardcore đến từ Việt Nam, mang tinh thần mạnh mẽ, thẳng thắn và đầy năng lượng
                 của dòng nhạc metal. Ban nhạc được hình thành với mục tiêu thể hiện những cảm xúc chân thật nhất về sự
@@ -117,7 +110,8 @@
                 Âm nhạc của Empathize kết hợp giữa giai điệu hardcore hiện đại và thông điệp sâu sắc, phản ánh những
                 trải nghiệm thật trong cuộc sống – về niềm tin, sự phản bội và hành trình đứng dậy sau vấp ngã. Mỗi bài
                 hát đều là một lời tuyên bố:</p>
-            <p class="italic">“Không ai cứu bạn ngoài chính bạn. Hãy tỉnh dậy và chiến đấu.”</p>
+            <p class="italic text-red-800 text-center">“Không ai cứu bạn ngoài chính bạn. Hãy tỉnh dậy và chiến đấu.”
+            </p>
             <p>Với phong cách biểu diễn cuồng nhiệt, âm thanh mạnh mẽ và thông điệp đầy sức nặng, Empathize đang dần trở
                 thành một trong những cái tên nổi bật trong cộng đồng hardcore Việt Nam, truyền cảm hứng cho thế hệ trẻ
                 về sự dũng cảm, tinh thần phản kháng và ý chí không khuất phục.</p>
@@ -135,7 +129,8 @@
                 Âm nhạc của Empathize kết hợp giữa giai điệu hardcore hiện đại và thông điệp sâu sắc, phản ánh những
                 trải nghiệm thật trong cuộc sống về niềm tin, sự phản bội và hành trình đứng dậy sau vấp ngã. Mỗi bài
                 hát đều là một lời tuyên bố:</p>
-            <p class="italic text-red-800 text-center">“Không ai cứu bạn ngoài chính bạn. Hãy tỉnh dậy và chiến đấu.”</p>
+            <p class="italic text-red-800 text-center">“Không ai cứu bạn ngoài chính bạn. Hãy tỉnh dậy và chiến đấu.”
+            </p>
             <p>Với phong cách biểu diễn cuồng nhiệt, âm thanh mạnh mẽ và thông điệp đầy sức nặng, Empathize đang dần trở
                 thành một trong những cái tên nổi bật trong cộng đồng hardcore Việt Nam, truyền cảm hứng cho thế hệ trẻ
                 về sự dũng cảm, tinh thần phản kháng và ý chí không khuất phục.</p>
