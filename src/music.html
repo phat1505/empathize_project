@@ -16,24 +16,27 @@
 
     <!-- NAV (thay thế phần nav cũ) -->
     <nav class="bg-transparent sticky top-0 w-full z-20">
-        <div class="flex items-center justify-between mx-6 md:mx-20 py-3">
+        <div class="flex items-center justify-between py-3">
             <!-- Menu desktop -->
-            <ul class="hidden md:flex items-center text-2xl font-storm-gust space-x-4 md:ml-10">
-                <li><a href="./index.html" class="px-2 hover:text-red-800">Home</a></li>
+            <ul class="hidden md:flex items-center text-2xl font-storm-gust space-x-4">
+                <li><a href="./index.html" class="px-2 hover:text-red-800 ml-12">Home</a></li>
                 <li><a href="./music.html" class="px-2 text-red-800">Music</a></li>
                 <li><a href="./member.html" class="px-2 hover:text-red-800">Member</a></li>
                 <li><a href="./about.html" class="px-2 hover:text-red-800">About</a></li>
             </ul>
             <!-- Logo -->
-            <a href="./index.html" class="flex-shrink-0">
+            <a href="./index.html" class="flex-shrink-0 mr-14">
                 <img src="./images/logo/logo1.png" class="w-[200px] md:w-[250px]" alt="logo" />
             </a>
             <!-- Icon group desktop -->
             <div class="hidden md:flex items-center space-x-16 [&>*]:transition-transform [&>*]:duration-200">
-                <a href="https://www.facebook.com/empathizehc" target="_blank"><img src="images/icon/facebook.png" class="w-6 h-6 hover:scale-110" /></a>
-                <a href="https://www.instagram.com/empathize.hc" target="_blank"><img src="images/icon/instagram.png" class="w-6 h-6 hover:scale-110" /></a>
+                <a href="https://www.facebook.com/empathizehc" target="_blank"><img src="images/icon/facebook.png"
+                        class="w-6 h-6 hover:scale-110" /></a>
+                <a href="https://www.instagram.com/empathize.hc" target="_blank"><img src="images/icon/instagram.png"
+                        class="w-6 h-6 hover:scale-110" /></a>
                 <a href="#" target="_blank"><img src="images/icon/email.png" class="w-6 h-6 hover:scale-110" /></a>
-                <a href="https://www.youtube.com/@Empathize-iy8nj" target="_blank"><img src="images/icon/youtube.png" class="w-6 h-6 mr-12 hover:scale-110" /></a>
+                <a href="https://www.youtube.com/@Empathize-iy8nj" target="_blank"><img src="images/icon/youtube.png"
+                        class="w-6 h-6 mr-12 hover:scale-110" /></a>
             </div>
 
             <!-- Mobile: button -->
@@ -44,18 +47,20 @@
         </div>
 
         <!-- Mobile menu (ẩn mặc định). .mobile-menu dùng để animation bằng max-height -->
-        <div id="mobileMenu" class="mobile-menu md:hidden max-h-0 opacity-0 overflow-hidden px-6 font-storm-gust mb-2">
+        <div id="mobileMenu" class="mobile-menu md:hidden max-h-0 opacity-0 overflow-y-auto px-6 font-storm-gust mb-2">
             <a href="./index.html" class="block py-3 border-b border-gray-700">Home</a>
             <a href="./music.html" class="block py-3 border-b border-gray-700 text-red-800">Music</a>
             <a href="./member.html" class="block py-3 border-b border-gray-700">Member</a>
             <a href="./about.html" class="block py-3 border-b border-gray-700">About</a>
         </div>
         <div id="mobileMenuIcons"
-            class="mobile-menu md:hidden max-h-0 opacity-0 overflow-hidden flex justify-start ml-6 space-x-6 mb-4">
+            class="mobile-menu md:hidden max-h-0 opacity-0 overflow-y-auto flex justify-start ml-6 space-x-6 mb-4">
             <a href="https://www.facebook.com/empathizehc"><img src="images/icon/facebook.png" class="w-6 h-6 " /></a>
-            <a href="https://www.instagram.com/empathize.hc"><img src="images/icon/instagram.png" class="w-6 h-6 " /></a>
+            <a href="https://www.instagram.com/empathize.hc"><img src="images/icon/instagram.png"
+                    class="w-6 h-6 " /></a>
             <a href="#"><img src="images/icon/email.png" class="w-6 h-6 " /></a>
-            <a href="https://www.youtube.com/@Empathize-iy8nj"><img src="images/icon/youtube.png" class="w-6 h-6 " /></a>
+            <a href="https://www.youtube.com/@Empathize-iy8nj"><img src="images/icon/youtube.png"
+                    class="w-6 h-6 " /></a>
         </div>
     </nav>
 
@@ -99,13 +104,14 @@
             }
         });
     </script>
-    <div class="mt-10 text-center font-bold hidden md:block md:ml-8">
+    <div class="mt-10 text-center font-bold hidden md:block">
         <h1 class="text-4xl font-bold mb-10 ">Empathize's Music</h1>
         <div class="border border-white rounded-full w-[800px] h-[90px] mx-auto mb-5 hover:bg-gray-800">
-            <a href="https://www.youtube.com/watch?v=VodcqXQ7Bm0" target="_blank" class="flex justify-center items-center">
+            <a href="https://www.youtube.com/watch?v=VodcqXQ7Bm0" target="_blank"
+                class="flex justify-center items-center">
                 <img src="./images/member/Khoi.jpg" class="w-[80px] h-[80px] my-1 mx-3 rounded-full" />
                 <div class="flex-1 flex justify-center">
-                <p class="text-2xl text-center">EMPATHIZE | F*CK AROUND AND FIND OUT ft. Huynh Huy</p>
+                    <p class="text-2xl text-center">EMPATHIZE | F*CK AROUND AND FIND OUT ft. Huynh Huy</p>
                 </div>
             </a>
         </div>
@@ -114,7 +120,7 @@
                 target="_blank" class="flex items-center">
                 <img src="./images/member/Bao.jpg" class="w-[80px] h-[80px] my-1 mx-3 rounded-full" />
                 <div class="flex-1 flex justify-center">
-                <p class="text-2xl text-center">EP 5Way Split "BEYOND THE WIRE"</p>
+                    <p class="text-2xl text-center">EP 5Way Split "BEYOND THE WIRE"</p>
                 </div>
             </a>
         </div>
@@ -122,7 +128,7 @@
             <a href="https://www.youtube.com/watch?v=NsvKO4KS28Y" target="_blank" class="flex items-center">
                 <img src="./images/member/Phuong.jpeg" class="w-[80px] h-[80px] my-1 mx-3 rounded-full" />
                 <div class="flex-1 flex justify-center">
-                <p class="text-2xl text-center ">EMPATHIZE | DELUDED ft. Viet Hoang Vu</p>
+                    <p class="text-2xl text-center ">EMPATHIZE | DELUDED ft. Viet Hoang Vu</p>
                 </div>
             </a>
         </div>
@@ -140,7 +146,8 @@
             </a>
         </div>
         <div class="gap-2 border border-white rounded-full p-2 hover:bg-gray-800">
-            <a href="https://www.youtube.com/watch?v=EtmFH4XUfx8&list=PL9yQFVP0nm14hQskfofJznjGti8zaoWDv" target="_blank" class="flex items-center">
+            <a href="https://www.youtube.com/watch?v=EtmFH4XUfx8&list=PL9yQFVP0nm14hQskfofJznjGti8zaoWDv"
+                target="_blank" class="flex items-center">
                 <img src="./images/member/Bao.jpg" class="w-10 h-10 rounded-full" />
                 <div class="text-center">
                     <p class="text-lg font-bold">EP 5Way Split "BEYOND THE WIRE"</p>
